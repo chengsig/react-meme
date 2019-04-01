@@ -7,7 +7,7 @@ function rootReducer(state=INITIAL_STATE, action){
         return { memes: [...state.memes, action.payload ]}
     }
     else if(action.type === 'DELETE_MEME'){
-        return { memes: state.memes.filter(m => m.id !== action.payload.id )}
+        return { memes: state.memes.filter(m => m.id !== action.payload )}
     }
     else{
         return state;

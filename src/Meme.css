@@ -1,0 +1,15 @@
+#top {
+    position: relative;
+    bottom: 250px;
+}
+
+#bottom {
+    position: relative;
+    bottom: 100px;
+}
+
+.Meme-deleteBtn { 
+    position: relative;
+    bottom: 103px;
+    background-color: tomato;
+}
