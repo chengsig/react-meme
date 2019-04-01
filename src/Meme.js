@@ -16,9 +16,7 @@ class Meme extends Component {
   render() {
     return (
         <div className="Meme" >
-           
-           <img key={this.props.id} 
-                src={this.props.img} 
+           <img src={this.props.img} 
                 alt="generated meme"/>
             <h5 id="top">{this.props.topText}</h5>
             <h5 id="bottom">{this.props.bottomText}</h5>
